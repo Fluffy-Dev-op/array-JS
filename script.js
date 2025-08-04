@@ -36,7 +36,7 @@ console.log(reverseArray)
 const newOtherNumbers = [1, 2, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 const filteredNumbers = []
 for (i = newOtherNumbers.length - 1; i >= 0; i--) {
-    filteredNumbers.push(i)
+    filteredNumbers.push(newOtherNumbers[i])
 };
 console.log(filteredNumbers)
 
